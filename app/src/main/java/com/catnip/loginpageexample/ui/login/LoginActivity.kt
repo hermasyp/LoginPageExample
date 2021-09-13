@@ -23,7 +23,7 @@ class LoginActivity : AppCompatActivity() {
 
     private fun setClickListeners() {
         binding.btnLoginAccount.setOnClickListener {
-            if(isFormLoginValid()){
+            if (isFormLoginValid()) {
                 checkLogin()
             }
         }
@@ -84,7 +84,7 @@ class LoginActivity : AppCompatActivity() {
             ).show()
             saveLoginData()
             navigateToHomepage()
-        }else{
+        } else {
             FancyToast.makeText(
                 this,
                 getString(R.string.text_toast_login_error),

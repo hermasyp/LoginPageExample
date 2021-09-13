@@ -11,4 +11,7 @@
     <string name="text_toast_login_error">Login Failed !</string>
     <string name="text_toast_login_fb_success">Login Facebook Success !</string>
     <string name="text_toast_login_gmail_success">Login Google Success !</string>
+    <string name="text_menu_logout">Logout</string>
+    <string name="text_actionbar_homepage">Homepage</string>
+    <string name="text_toast_logout_success">Logout Success !</string>
 </resources>
